@@ -9,28 +9,16 @@ body {
 
 h1 {
     font-family: 'Jura', sans-serif;
-
     font-weight: bold;
-
     font-size: 2em;
-
     color: white;
 }
 
-
 header {
-    /* background-color: darkcyan; */
-
-    /* padding: 30px; */
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    /* width: 90%; */
-
-    /* background-color: darkblue; */
 }
 
 img {
@@ -39,18 +27,12 @@ img {
 
 
 main {
-    /* background-color: red; */
-
     padding: 20px;
-
-    /* padding: 20px; */
-    /* text-align: center; */
-
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-
-    /* width: 80%; */
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -62,9 +44,7 @@ p {
 h2 {
     font-size: 2em;
     margin: 50px 50px;
-
     color: white;
-
     padding: 15px;
     border-bottom: 3px solid white;
 }
@@ -79,9 +59,30 @@ h3, h4 {
 
 ul li {
     font-size: 1.2em;
+    margin: 5px;
 }
 
+#return {
+    border-radius: 7px;
+    box-shadow: 1px 1px rgb(94,93,93);
+    border: none;
+    height: 30px;
+    height: 30%;
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #156EA0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px; 
+}
 
+#prevention-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 

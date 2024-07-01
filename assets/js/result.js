@@ -3,9 +3,6 @@ let printDataInScreen = (id) => {
 
     console.log("ID que chegou: " + id)
     
-
-
-
     fetch('../../doencas.json')
     .then(response => response.json())
     .then(data => {
@@ -14,6 +11,8 @@ let printDataInScreen = (id) => {
 
         document.getElementById('disease').innerText = data.Disease[id].disease; 
         
+        
+        //Tratamentos
         let treatmentList = document.getElementById('treatment-list');
 
         data.Disease[id].treatment.forEach(treatments_ => {
@@ -26,16 +25,20 @@ let printDataInScreen = (id) => {
         })
 
 
-         
-    
+        //Prevenção
 
+        let preventionList = document.getElementById('prevention-list');
+
+        data.Disease[id].prevention.forEach(prevention_ => {
+            let li = document.createElement('li');
+
+            li.innerText = `${prevention_}`;
+
+            preventionList.append(li);
+        })
     
-    
-    
-    })
-        
+    }) 
 }
-
 
 
 let urlParams = new URLSearchParams(window.location.search);
@@ -60,3 +63,15 @@ if (disease == "Leptospirose"){
 }else if (disease = "Animais peçonhetos") {
     printDataInScreen(5);
 }
+
+
+let button = document.getElementById('return'); 
+
+button.addEventListener('click', () => {
+    window.location.href = "../../index.html";
+})
+
+
+
+
+

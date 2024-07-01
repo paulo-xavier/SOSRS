@@ -12,12 +12,8 @@ buttonSend.addEventListener('click', () => {
     });
 
 
-
     fetchDisease(checkedCheckBoxes);
-
-
 })
-
 
 
 const fetchDisease = (checkedCheckBoxes) => {
