@@ -1,0 +1,37 @@
+{
+    "Disease" : [
+        
+        {
+            "disease" : "Leptospirose",
+            "treatment": ["Use botas e luvas", "Evitar agua e solo contaminados com urina ou sangue de animais infectados","Manter o ambiente limpo para evitar os roedores","Antibioticos prescritos pelo medico"],
+            "symptom": ["febre alta","dor de cabeça","sangramentos","dor muscular","calafrios","olhos vermelhos","Vomitos", "dor na panturrilha e lombar"]
+        },
+        {
+            "disease" : "Tétano",
+            "treatment": ["vacina","limpar e cuidar das feridas","evitar contato com solo e fezes dos animais","controlar infecção e aliviar os sintomas com medicamentos prescritos pelo medico"],
+            "symptom": ["Contracoes musculares dolorosas","dificuldade para respirar","febre","pressao alta","sudorese"]
+        },
+        {
+            "disease" : "Diarreia aguda",
+            "treatment": ["evitar toma agua da torneira, apenas se for fervida por pelo menos 5 minutos","lavar bem as maos e alimentos","beber agua filtrada","evitar alimentos crus ou mal cozidos","tomar vacina rotavirus"],
+            "symptom":["sangramento nas fezes","dores abdominais","muco"]
+        },
+        {
+            "disease" : "Hepatite A",
+            "treatment": ["nao existe tratamento especifico, porem pode-se aliviar os sintomas","evitar automedicacao","repouso","hidratacao","dieta leve (evitar comidas picantes e gordurosas)","medicacao prescrita pelo medico"],
+            "symptom":["fadiga","ictericia","urina escura","fezes claras","perda de apetite"]
+        },
+        {
+            "disease" : "Dengue",
+            "treatment": ["eliminar os criadouros de mosquitos","usar repelentes","instalar telas nas portas e janelas","descansar bastante","hidratar-se","medicamento prescrito pelo medico","evitar anti-inflamatorios","monitorar a temperatura"],
+            "symptom":["febre alta","dor muscular","erupcoes cutaneas","dores nas articulacoes","hemorragia intensa","dificuldade para respirar","edema","rubor","dor de cabeca"]
+        },
+        {
+            "disease" : "Animais peçonhetos",
+            "treatment": ["identificar o animal (tirar foto)","levar o local afetado com agua e sabao","aplique compressa fria para diminuir o inchaço","procure atendimento imediatamente"],
+            "symptom":["dor depois da picada","dor muscular","hematoma","formacao de bolhas","ulceras"]
+        }
+
+        
+    ]
+}

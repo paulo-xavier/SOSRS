@@ -1,0 +1,94 @@
+:root {
+    --main-text-color:#F47D81;
+}
+
+body {
+    background-color: var(--main-text-color);
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Jura', sans-serif;
+
+    font-weight: bold;
+
+    font-size: 2em;
+
+    color: white;
+}
+
+
+header {
+    /* background-color: darkcyan; */
+
+    /* padding: 30px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* width: 90%; */
+
+    /* background-color: darkblue; */
+}
+
+img {
+    width: auto !important;
+}
+
+
+main {
+    /* background-color: red; */
+
+    padding: 20px;
+
+    /* padding: 20px; */
+    /* text-align: center; */
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+
+    /* width: 80%; */
+
+}
+
+
+p {
+    font-size: 1.3em;
+    margin: 20px 0 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 50px 50px;
+
+    color: white;
+
+    padding: 15px;
+    border-bottom: 3px solid white;
+}
+
+p, h2 {
+    text-align: center;
+}
+
+h3, h4 {
+    font-size: 1.4em;
+} 
+
+ul li {
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+
+    <title>SOSRS</title>
+</head>
+<body>
+
+    <header class="row" >
+
+        <h1>SOS RS</h1>    
+        
+        <img src="./assets/images/doctor-bag.png" alt=""> 
+
+
+    </header>
+
+
+    <main class="row">
+
+        <div class="col">
+            <p class="description-paragraph"> Nos informe os seus sintomas para que possamos te ajudar!</p>
+
+        </div>
+
+        <form class="form-check"> 
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="false">
+            
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                
+                <div class="components-form">
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="febre-alta">
+                      <label for="febre-alta">Febre alta</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dor-de-cabeça">
+                      <label for="dor-cabeça">Dor de cabeça</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="sangramentos">
+                      <label for="sangramentos">Sangramentos</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dor-muscular">
+                      <label for="dor-muscular">Dor muscular</label>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="calafrios">
+                      <label for="calafrios">Calafrios</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="olhos-vermelhos">
+                      <label for="olhos-vermelhos">Olhos vermelhos</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="vomitos">
+                      <label for="vomitos">Vômitos</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dor-na-lombar-e-panturrilha">
+                      <label for="dor-lombar-panturrilha">Dor na panturrilha e lombar</label>
+                    </div>
+                    
+                
+                </div>
+              
+            </div>
+              
+              <div class="carousel-item">
+                
+                <div class="components-form">
+
+                    
+                      <input type="checkbox" name="disease" id="contracoes-musculares">
+                      <label for="contracoes-musculares-dolorosas">Contrações musculares dolorosas - Mandíbula e pescoço</label>
+                    
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dificuldade-respirar">
+                      <label for="dificuldade-para-respirar">Dificuldade para respirar</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="febre">
+                      <label for="febre">Febre</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="pressao-alta">
+                      <label for="pressao-alta">Pressão alta</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="sudorese">
+                      <label for="sudorese">Sudorese</label>
+                    </div>
+                    
+                </div>
+
+              </div>
+
+
+              <div class="carousel-item">
+                
+                <div class="components-form">
+
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="sangramento-nas-fezes">
+                      <label for="sangramento-fezes">Sangramento nas fezes</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dores-abdominais">
+                      <label for="dores-abdominais">Dores abdominais</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="muco">
+                      <label for="muco">Muco</label>
+                    </div>
+
+                
+                </div>
+
+              </div>
+
+
+
+
+
+              
+              <div class="carousel-item">
+                
+                <div class="components-form">
+                    <input type="checkbox" name="disease" id="fadiga"> 
+                    <label for="fadiga">Fadiga</label>
+                    
+                    <input type="checkbox" name="disease" id="ictericia"> 
+                    <label for="ictericia">Icterícia - Amarelão no corpo</label>
+                    
+                    <input type="checkbox" name="disease" id="urina-escura"> 
+                    <label for="urina-escura">Urina escura</label>
+                    
+                    <input type="checkbox" name="disease" id="fezes-claras"> 
+                    <label for="fezes-claras">Fezes claras</label>
+                    
+                    <input type="checkbox" name="disease" id="perda-de-apetite"> 
+                    <label for="perda-apetite">Perda de apetite</label>
+                    
+                </div>
+
+              </div>
+             
+             
+             
+             
+             
+             
+             
+              <div class="carousel-item">
+                
+                <div class="components-form">
+
+
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="febre-alta">
+                      <label for="febre-alta">Febre ou febre alta</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dor-muscular">
+                      <label for="dor-muscular">Dores musculares</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="erupcoes-cutaneas">
+                      <label for="erupcoes-cutaneas">Erupões cutâneas</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dores-nas-articulacoes">
+                      <label for="dores-articulacoes">Dores nas articulações</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="hemorragia-intensa">
+                      <label for="hemorragia-intensa">Hemorragia intensa</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dificuldade-para-respirar">
+                      <label for="dificuldade-respirar">Dificuldade para respirar</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="edema">
+                      <label for="edema">Edema - Inchaço</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="rubor">
+                      <label for="rubor">Rubor - Vermelhidão</label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="checkbox" name="disease" id="dor-de-cabeca">
+                      <label for="dor-de-cabeca">Dor de cabeça</label>
+                    </div>
+                    
+                </div>
+
+              </div>
+              
+              
+              
+              
+              
+              
+              
+              
+              <div class="carousel-item">
+                
+                <div class="components-form">
+                    <input type="checkbox" name="disease" id="dor-depois-da-picada"> 
+                    <label for="dor-depois-da-picada">Dor - 30 a 60 minutos depois da picada</label>
+                    
+                    <input type="checkbox" name="disease" id="dor-muscular"> 
+                    <label for="dor-muscular">Dores musculares</label>
+                    
+                    <input type="checkbox" name="disease" id="hematoma"> 
+                    <label for="hematoma">Hematoma</label>
+                    
+                    <input type="checkbox" name="disease" id="formacao-de-bolhas"> 
+                    <label for="formacao-de-bolhas">Formação de bolhas</label>
+                    
+                    <input type="checkbox" name="disease" id="ulceras"> 
+                    <label for="ulceras">Áreas com ulceração</label>
+                    
+                </div>
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev" >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            
+
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next" >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          </form>
+
+
+          <button class="send">Enviar </button>
+
+    </main>
+    
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
